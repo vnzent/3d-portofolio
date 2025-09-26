@@ -75,7 +75,7 @@ section {
 	}
 	
 	.grid-4-cols {
-		@apply grid grid-cols-1 md:grid-cols-2 xl-grid-cols-4 gap-7;
+		@apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-7;
 	}
 	
 	.grid-12-cols {
@@ -256,7 +256,7 @@ section {
 	}
 	
 	.tech-card.animated-bg {
-		@apply absolute left-0 bottom-[-100%] w-full h-full -bg-[#2D3240] group-hover:bottom-0 transition-all duration-700;
+		@apply absolute left-0 bottom-[-100%] w-full h-full bg-[#2D3240] group-hover:bottom-0 transition-all duration-700;
 	}
 	
 	.tech-card-content {
