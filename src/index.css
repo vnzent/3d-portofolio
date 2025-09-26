@@ -216,7 +216,7 @@ section {
 		}
 		
 		.text {
-			@apply uppercase md:text-lg text-dark transition-all duration-500 group-hover:text-primary-50 group-hover:-translate-x-5 xl:translate-x-0 -translate-x-5;
+			@apply uppercase md:text-lg text-dark transition-all duration-500 group-hover:text-primary-50 group-hover:-translate-x-7 xl:translate-x-0 -translate-x-5;
 		}
 		
 		.arrow-wrapper {
@@ -349,13 +349,13 @@ section {
 		transform: translateY(-50%);
 	}
 	62.5% {
-		transform: translateY(62.5%);
+		transform: translateY(-62.5%);
 	}
 	75% {
-		transform: translateY(75%);
+		transform: translateY(-75%);
 	}
 	87.5% {
-		transform: translateY(87.5%);
+		transform: translateY(-87.5%);
 	}
 }
 
