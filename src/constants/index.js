@@ -40,4 +40,7 @@ const counterItems = [
     { value: 90, suffix: "%", label: "Client Retention Rate"},
 ]
 
-export default words;
+export {
+    words,
+    counterItems,
+}
