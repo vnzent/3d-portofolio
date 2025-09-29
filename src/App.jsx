@@ -1,3 +1,4 @@
+import MovingLogo from "./components/MovingLogo"
 import NavBar from "./components/NavBar"
 import Hero from "./sections/Hero"
 import ShowCase from "./sections/ShowCase"
@@ -8,6 +9,7 @@ const App = () => {
       <NavBar />
       <Hero/>
       <ShowCase />
+      <MovingLogo />
     </>
   )
 }
