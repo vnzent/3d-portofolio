@@ -194,7 +194,7 @@ section {
 				@apply h-64 md:h-52 lg:h-72 xl:h-[37vh] relative rounded-xl xl:px-5 2xl:px-12 py-0;
 			}
 			
-			.img {
+			img {
 				@apply w-full h-full object-contain rounded-xl;
 			}
 			
