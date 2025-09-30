@@ -8,7 +8,7 @@ const FeatureCards = () => {
     <div className="w-full padding-x-lg">
         <div className="mx-auto grid-3-cols">
             {abilities.map((ability, index) => (
-                
+                <div key={index}>
                     <GlowCard card={ability} index={index}>
                         <div className="flex flex-col gap-4">
                             <div className="size-14 flex justify-center items-center rounded-full">
@@ -18,6 +18,7 @@ const FeatureCards = () => {
                             <p className="text-primary-50 text-lg">{ability.desc}</p>
                         </div>
                     </GlowCard>
+                </div>
             ))}
         </div>
     </div>
