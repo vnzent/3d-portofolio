@@ -161,4 +161,5 @@ export {
     navLinks,
     logoIconsList,
     abilities,
+    expCards
 }
