@@ -118,4 +118,5 @@ export {
     counterItems,
     navLinks,
     logoIconsList,
+    abilities,
 }
