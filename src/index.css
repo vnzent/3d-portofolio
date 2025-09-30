@@ -236,7 +236,7 @@ section {
 	}
 	
 	.timeline-wrapper {
-		@apply absolute top-0 left-5 md:left-10 xl:left-[35.5vw] h-full flex justify-center;
+		@apply absolute top-0 left-5 md:left-10 xl:left-[38.5vw] 2xl:left-[37.3vw] h-full flex justify-center;
 	}
 	
 	.timeline {
