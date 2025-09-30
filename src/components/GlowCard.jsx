@@ -21,7 +21,7 @@ const GlowCard = ({ card, children, index, isRating = false }) => {
     } 
 
   return (
-    <div ref={(el) => (cardRefs.current[index] = el)} onMouseMove={handleMouseMove(index)} className="card card-border rounded-xl p-8">
+    <div ref={(el) => (cardRefs.current[index] = el)} onMouseMove={handleMouseMove(index)} className={`${isRating ? "timeline-card" : ""} card card-border rounded-xl p-8`}>
         <div className="glow" />
         {isRating && <div className="flex items-center gap-1 mb-5">
             {Array.from({length: 5}, (_, i) => (
