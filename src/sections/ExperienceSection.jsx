@@ -50,7 +50,7 @@ const ExperienceSection = () => {
                     start: "top 60%"
                 }
             })
-        }, "<   ")
+        })
     }, []);
 
   return (
@@ -62,7 +62,7 @@ const ExperienceSection = () => {
             />
         </div>
 
-        <div onmouse className="mt-32 relative">
+        <div className="mt-32 relative">
             <div className="relative z-50 space-y-10 xl:space-y-32">
                 {expCards.map((expCard, index) => (
                     <div key={index} className="exp-card-wrapper">
