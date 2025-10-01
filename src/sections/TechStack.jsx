@@ -17,7 +17,7 @@ const TechStack = () => {
         opacity: 1,
         duration: 1,
         ease: "power2.inOut",
-        stagger: 0.5,
+        stagger: 0.1,
         scrollTrigger: {
           trigger: "#skills",
           start: "top center",
