@@ -99,7 +99,6 @@ const ExperienceSection = () => {
                                         </ul>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
