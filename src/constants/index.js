@@ -194,5 +194,6 @@ export {
     navLinks,
     logoIconsList,
     abilities,
-    expCards
+    expCards,
+    techStackIcons
 }
