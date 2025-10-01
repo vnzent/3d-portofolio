@@ -7,7 +7,7 @@ import emailjs from '@emailjs/browser'
 const Contact = () => {
     const [loading, setLoading] = useState((false))
     const formRef = useRef(null)
-    
+
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -56,7 +56,7 @@ const Contact = () => {
 
         <div className="mt-16 grid-12-cols">
           {/* Contact Form - Left Side */}
-          <div className="col-span-5">
+          <div className="xl:col-span-5">
             <div className="flex-center card-border rounded-xl p-10">
               <form
                 ref={formRef}
